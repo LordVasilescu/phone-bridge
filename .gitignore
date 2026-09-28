@@ -1,0 +1,38 @@
+# Dependencies / builds
+node_modules/
+dist/
+build/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets and local state
+.env
+.env.*
+!.env.example
+*.key
+.access-key
+.session
+secrets/
+tokens.json
+state.json
+cookies*.txt
+
+# Logs, databases, runtime output
+logs/
+*.log
+*.err
+*.db
+*.sqlite
+*.sqlite3
+tmp/
+
+# Large binaries / media
+*.exe
+*.bin
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.pcm
